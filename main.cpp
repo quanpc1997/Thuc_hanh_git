@@ -17,7 +17,8 @@ int tru(int &a, int &b) {
 
 int cong(int &a, int &b) {
     cout << "Cong" << a + b;
-    return a + b;
+    cout << "minh da sua ham cong" ;
+	  return a + b;
 }
 
 int main() {
