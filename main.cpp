@@ -25,13 +25,12 @@ int tru(int &a, int &b) {
 
 
 int cong(int &a, int &b) {
-    
-
-
-
+    cout << "Cong" << a + b;
+	return a + b;
 }
 
 int main() {
+    cong(1,2);
     int a =5;
     int b =3;
     tru(&a, &b)
