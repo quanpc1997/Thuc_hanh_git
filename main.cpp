@@ -2,31 +2,22 @@
 
 using namespace std;
 
-
 int nhan(int &a, int &b) {
     x = a*b;
     print("ngo thi anh, a*b= %d\n", x);
+	cout << "Cong da sua ham nhan";
     return x;
 }
 
-
-
-}
-
-
 int tru(int &a, int &b) {
-
     int tru = a-b;
     print("minh, a-b= %d\n", tru);
     return tru;
-
-
 }
-
 
 int cong(int &a, int &b) {
     cout << "Cong" << a + b;
-	return a + b;
+    return a + b;
 }
 
 int main() {
