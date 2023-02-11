@@ -18,6 +18,7 @@ int tru(int &a, int &b) {
 
     int tru = a-b;
     print("minh, a-b= %d\n", tru);
+    print("Anh da sua ham tru")
     return tru;
 
 
