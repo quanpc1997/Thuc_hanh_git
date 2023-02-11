@@ -2,8 +2,13 @@
 
 using namespace std;
 
+
 int nhan(int &a, int &b) {
-    
+    x = a*b;
+    print("ngo thi anh, a*b= %d\n", x);
+    return x;
+}
+
 
 
 }
@@ -12,7 +17,7 @@ int nhan(int &a, int &b) {
 int tru(int &a, int &b) {
 
     int tru = a-b;
-     print("minh, a-b= %d\n", tru);
+    print("minh, a-b= %d\n", tru);
     return tru;
 
 
@@ -30,5 +35,6 @@ int main() {
     int a =5;
     int b =3;
     tru(&a, &b)
+    nhan(&a,&b);
     return 0
 }
