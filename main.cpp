@@ -5,7 +5,7 @@ using namespace std;
 int nhan(int &a, int &b) {
     x = a*b;
     print("ngo thi anh, a*b= %d\n", x);
-	cout << "Cong da sua ham nhan";
+    cout << "Cong da sua ham nhan";
     return x;
 }
 
